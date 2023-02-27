@@ -1,11 +1,4 @@
 terraform {
-  cloud {
-    organization = "fancycorp"
-
-    workspaces {
-      tags = ["webserver", "platform:azure"]
-    }
-  }
   # Minimum provider version for OIDC auth
   required_providers {
     azuread = {
