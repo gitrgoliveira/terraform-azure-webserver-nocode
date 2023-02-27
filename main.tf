@@ -34,7 +34,7 @@ module "webserver" {
     Purpose   = "Terraform TFC Demo Org (FancyCorp)"
     TTL       = "24h"
     Terraform = "true"
-    Source    = "https://github.com/FancyCorp-Demo/tfcb-setup/tree/main/terraform-azure"
+    Source    = "https://github.com/FancyCorp-Demo/terraform-azure-webserver-nocode"
     Workspace = terraform.workspace
   }
 
