@@ -18,7 +18,7 @@ provider "azurerm" {
 
 
 module "webserver" {
-  source  = "app.terraform.io/fancycorp/webserver/azure"
+  source  = "app.terraform.io/hc-ric-demo/webserver/azure"
   version = "~> 2.0"
 
   resource_group_name = "strawb-tfc-demo-${terraform.workspace}"
